@@ -1,5 +1,5 @@
 # Md5
-Encrypt your String(pass,data,etc) for save on database and send to server
+Encrypt your String(pass,data,etc) to save on database and send to server
 
 1- create LMD5 class:
 
