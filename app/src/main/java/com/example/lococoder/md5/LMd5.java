@@ -4,13 +4,13 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import static podia.system.Config.SALT;
 
 public class LMd5 {
 
 
   public static String md5(String s) {
-    s=SALT+s;
+    String salt="lkjasghdjkashdkjasasdfsd1224";
+    s=salt+s;
     MessageDigest mdEnc = null;
     try {
       mdEnc = MessageDigest.getInstance("MD5");
